@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Button from 'components/Button';
+// import Button from 'components/Button';
+import CustomComponent from 'components/CustomComponent';
 
 class App extends Component {
   render() {
@@ -15,7 +16,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Button>Button</Button>
+        <CustomComponent>CustomComponent</CustomComponent>
       </div>
     );
   }
