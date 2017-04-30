@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-// import Button from 'components/Button';
-import CustomComponent from 'components/CustomComponent';
+import tinyButton from 'tiny-button';
 
 class App extends Component {
   render() {
@@ -16,7 +15,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <CustomComponent>CustomComponent</CustomComponent>
+        <tinyButton>Tiny Button!</tinyButton>
       </div>
     );
   }

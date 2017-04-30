@@ -1,0 +1,15 @@
+{
+  "babel": {
+    "preset": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "tiny-button": "1.0.0"
+  },
+  "devDependencies": {
+    "babel-loader": "6.2.10",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "1.14.0"
+  }
+}
