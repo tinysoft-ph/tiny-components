@@ -1,4 +1,14 @@
 {
+  "private": true,
+  "name": "Demo",
+  "main": "./index.js",
+  "scripts": {
+    "build": "babel App.jsx -o index.js",
+  },
+  "peerDependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
   "babel": {
     "preset": [
       "es2015"
