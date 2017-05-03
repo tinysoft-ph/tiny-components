@@ -1,11 +1,12 @@
 {
   "private": true,
   "name": "tiny-button",
-  "main": "./index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "babel Button.jsx -o index.js",
   },
   "peerDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   }
