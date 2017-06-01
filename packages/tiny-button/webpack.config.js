@@ -1,20 +1,22 @@
 var path = require('path');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/index',
   output: {
     filename: 'index.js',
-    path: path.resolve(__dirname, 'lib')
+    path: path.resolve(__dirname, 'dist')
   },
   module: {
     rules: [
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: ['env']
-        }
+        use: [
+          {
+            loader: 'babel-loader',
+            options: 'env'
+          }
+        ]
       }
     ]
   },
