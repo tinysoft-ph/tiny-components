@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "arrow-body-style": ["error", "always"],
+    "jsx-quotes": 1,
+    "new-cap": ["error", {
+      "capIsNewExceptions": ["Map", "List"]
+    }],
+    "no-return-assign": 2,
+    "quote-props": ["error", "consistent", {
+      "numbers": true
+    }],
+    "react/jsx-": 0,
+    "react/jsx-filename-extension": [1, {
+      "extensions": [".js", ".jsx"]
+    }],
+    "react/require-extension": "off",
+    "space-in-parens": ["error", "always"]
+  }
+}

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render with type 1`] = `
+<button
+  className={undefined}
+  onClick={undefined}
+/>
+`;

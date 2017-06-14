@@ -1,10 +1,10 @@
-var path = require('path');
+const path = require( 'path' );
 
 module.exports = {
   entry: './src/index',
   output: {
     filename: 'index.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve( __dirname, 'dist' ),
   },
   module: {
     rules: [
@@ -14,13 +14,13 @@ module.exports = {
         use: [
           {
             loader: 'babel-loader',
-            options: 'env'
-          }
-        ]
-      }
-    ]
+            options: 'env',
+          },
+        ],
+      },
+    ],
   },
   resolve: {
-    extensions: ['.js', '.jsx']
-  }
-}
+    extensions: ['.js', '.jsx'],
+  },
+};
